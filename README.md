@@ -15,7 +15,7 @@ Change .gitconfig
 
 Here is basic shell commands? we use in lesson
 
-```cd``` - change directory/ cd ~ - change to home directory
+```cd``` - change directory. ```cd ~``` - change to home directory
 
 ```pwd``` - show my place (where i am)
 
@@ -45,7 +45,7 @@ Here is basic shell commands? we use in lesson
 
 ```git status``` - current status of repositary
 
-```git add``` - add file to repositary, git add --all - add all files in folder
+```git add``` - add file to repositary, ```git add --all``` - add all files in folder
 
 ```git commit -m 'Comment'``` - Commit changes
 
@@ -74,7 +74,7 @@ Link you git repositary to github
 
 origin - name of remote repositary
 
-put local repositary content to remote
+Put local repositary content to remote
 
 ## README.md
 File about project in markdown format.
