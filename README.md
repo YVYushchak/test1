@@ -76,6 +76,34 @@ origin - name of remote repositary
 
 Put local repositary content to remote
 
+## Hash and other
+Every commit has it's own hash/ Anyone can see it using comands ```git log```  or ```git log --oneline``` (short version).
+
+```HEAD``` is a last commit in branch?
+```cat ./git/HEAD``` - show reference to master file. 
+```cat ./git/refs/heads/main``` show hash of the last commit.
+
+## File statuses in Git
+File can be in next statuses
+untracked - not in git
+staged (indexed, cached) - prepared to commit
+tracked - watched by Git
+modified - changed after commit
+
+When you add file to git and then change it, youo need to add file again.
+
+```mermaid
+graph LR
+untracked -- "git add" --> staged;
+staged -- "git commit" --> tracked/commited;
+staged -- "changes" --> modified;
+modified -- "git add" --> staged;
+tracked -- "changes" --> modified;
+```
+
+```git status``` show statuses for staged, modified, untracked files/
+
+
 ## README.md
 File about project in markdown format.
 
