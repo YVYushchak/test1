@@ -98,7 +98,7 @@ untracked -- "git add" --> staged;
 staged -- "git commit" --> tracked/commited;
 staged -- "changes" --> modified;
 modified -- "git add" --> staged;
-tracked -- "changes" --> modified;
+tracked/commited -- "changes" --> modified;
 ```
 
 ```git status``` show statuses for staged, modified, untracked files/
