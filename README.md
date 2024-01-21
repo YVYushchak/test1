@@ -49,6 +49,8 @@ Here is basic shell commands? we use in lesson
 
 ```git commit -m 'Comment'``` - Commit changes
 
+```git commit --amend --no-edit``` - Make changes to last commit
+
 ```git log``` - show all commits
 
 ```git remote add name link``` - link local and remote repositary
@@ -85,10 +87,10 @@ Every commit has it's own hash/ Anyone can see it using comands ```git log```  o
 
 ## File statuses in Git
 File can be in next statuses
-untracked - not in git
-staged (indexed, cached) - prepared to commit
-tracked - watched by Git
-modified - changed after commit
+*untracked - not in git
+*staged (indexed, cached) - prepared to commit
+*tracked - watched by Git
+*modified - changed after commit
 
 When you add file to git and then change it, youo need to add file again.
 
